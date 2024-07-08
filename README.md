@@ -1,2 +1,2 @@
-# t7-oracle-next-education-challange1
+# Decodificador de texto
 Desafio 1 da turma 7 do programa ONE (Oracle Next Education)

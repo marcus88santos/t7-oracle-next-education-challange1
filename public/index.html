@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="../src/assets/styles/index.css">
+  </head>
+  <body>
+    <script src="../app/app.js"></script>
+    <main >
+      <section class="content">
+        <div class="content__logo-title">
+          <img
+            class="content__logo-title__logo"
+            src="../src/assets/images/img-logo-alura.svg"
+            alt="logo alura"
+          />
+          <h1 class="content__logo-title__title">Decodificador de Texto</h1>
+        </div>
+        <div class="content__text">
+          <textarea class="content__text__input" placeholder="Digite sua mensagem aqui..."></textarea>
+          <div class="content__text__alert">
+            <img src="../src/assets/images/img-exclamation.svg"
+            alt="requisitos" class="content__text__alert__icon"/>
+            <span>Apenas letras minúsculas e sem acento serão consideradas.</span>
+          </div>
+          <div class="content__text__buttons">
+            <button class="buttons__btn buttons__btn--encrypt" onclick="handleEncrypt()">
+              Criptografar
+            </button>
+            <button class="buttons__btn buttons__btn--decrypt" onclick="handleDecrypt()">
+              Descriptografar
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="decrypt">
+        <img
+        class="decrypt__img"
+          src="../src/assets/images/img-msg-not-found.png"
+          alt="mensagem não encontrada"
+        />
+        <div class="decrypt__text">
+          <h3 class="decrypt__text__title">Nenhuma mensagem encontrada</h3>
+          <p class="decrypt__text__result">
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </div>
+        <button class="buttons__btn buttons__btn--copy" onclick="handleCopy()">
+          Copiar
+        </button>
+      </section>
+    </main>
+    <footer>
+      <span>© 2024 Powered by &#60;marcUs fiLLipe santos/></span>
+      <div class="footer__social-media">
+        <a href="https://wa.me/+557996510482">
+          <img class="footer__socia-media__icon" src="../src/assets/images/img-logo-whatsapp.svg" alt="whatsapp">
+        </a>
+        <a href="https://linkedin.com/in/marcus88santos">
+          <img class="footer__socia-media__icon" src="../src/assets/images/img-logo-linkedin.svg" alt="linkedin">
+        </a>
+        <a href="https://github.com/marcus88santos">
+          <img class="footer__socia-media__icon" src="../src/assets/images/img-logo-github.svg" alt="github">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
