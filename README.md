@@ -31,7 +31,7 @@ Acesse [aqui](https://www.figma.com/proto/nEWIYK8dwpHFKeTVbs64aE/Alura-Challenge
 
 <br />
 
-## Autor
+## 🚶 Autor
 
 | [<img loading="lazy" src="https://github.com/marcus88santos.png?size=115" width=115><br><sub>marcUs fiLLipe santos</sub>](https://github.com/marcus88santos) |
 | :---: |
