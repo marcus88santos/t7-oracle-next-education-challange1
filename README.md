@@ -9,7 +9,7 @@ Desafio 1 da turma 7 do programa ONE (Oracle Next Education)
 - `copiar`: cópia do texto criptografado ou descriptografado
 <br />
 
-## 📁 Acesso ao projeto
+## 📁 Deploy do projeto
 Acesse o projeto clicando [aqui](https://marcus88santos.github.io/t7-oracle-next-education-challange1/)
 <br />
 <br />
