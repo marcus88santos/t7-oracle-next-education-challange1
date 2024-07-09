@@ -44,7 +44,7 @@ function handleDecrypt() {
   newText = newText.replaceAll("imes", "i");
   newText = newText.replaceAll("enter", "e");
   
-  const det = document.querySelector('.decryptcryp')
+  const decrypt = document.querySelector('.decrypt')
   decrypt.style.gap = "16px";
 
   const decryptImg = document.querySelector('.decrypt__img')

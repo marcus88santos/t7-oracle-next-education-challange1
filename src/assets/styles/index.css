@@ -108,9 +108,9 @@ main {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   font-weight: bold;
-  min-width: 20%;
+  min-width: 25%;
   padding: 24px;
-  width: 35%;
+  width: 45%;
 }
 .buttons__btn--encrypt {
   background-color: var(--page-title);
@@ -155,7 +155,6 @@ main {
   display: block;
   font-size: 1rem;
   word-break: break-all;
-  /* line-break: normal; */
   line-height: 150%;
   text-align: center;
   width: 338px;
@@ -165,7 +164,7 @@ main {
   background-color: var(--quaternary-color);
   color: var(--terciary-color);
   display: none;
-  width: 50%;
+  width: 100%;
 }
 
 footer {
@@ -190,4 +189,129 @@ footer {
     brightness(112%) contrast(102%);
   height: 32px;
   width: 32px;
+}
+
+@media (min-width: 450px) AND (max-width: 1000px) {
+  main {
+    flex-direction: column;
+    height: auto;
+    padding: 24px 16px;
+    width: auto;
+  }
+
+  .content__logo-title {
+    margin-bottom: 48px;
+  }
+  
+  .content__logo-title__logo {
+    padding: 0;
+  }
+
+  .content__text {
+    margin: 0;
+  }
+
+  .content__text__input {
+    /* font-size: 1.3rem; */
+    min-height: 700px;
+  }
+
+  .content__text__alert {
+    font-size: 0.7rem;
+  }
+  
+  .content__text__buttons {
+    gap: 24px;
+  }
+
+  .buttons__btn {
+    width: 100%;
+  }
+
+  .decrypt {
+    height: auto;
+    margin-block: 64px;
+    width: 100%;
+  }
+
+  .decrypt__img {
+    display: none;
+  }
+
+  .decrypt__text__result {
+    min-height: 200px;
+    width: 100%;
+  }
+  footer {
+    font-size: 0.6rem;
+    height: 50px;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    width: 100vw;
+  }
+
+  main {
+    flex-direction: column;
+    height: auto;
+    padding: 24px 16px;
+  }
+
+  .content__logo-title {
+    margin-bottom: 48px;
+  }
+  
+  .content__logo-title__logo {
+    padding: 0;
+  }
+
+  .content__logo-title__title {
+    font-size: 1.6rem;
+    text-align: right;
+  }
+
+  .content__text {
+    margin: 0;
+  }
+
+  .content__text__input {
+    font-size: 1.3rem;
+    min-height: 250px;
+  }
+
+  .content__text__alert {
+    font-size: 0.7rem;
+  }
+  
+  .content__text__buttons {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .buttons__btn {
+    width: 100%;
+  }
+
+  .decrypt {
+    height: auto;
+    margin-block: 64px 40px;
+    width: 100%;
+  }
+
+  .decrypt__img {
+    display: none;
+  }
+
+  .decrypt__text__result {
+    min-height: 100px;
+    width: 100%;
+  }
+  footer {
+    font-size: 0.6rem;
+    height: 50px;
+    padding: 0 16px;
+  }
 }
