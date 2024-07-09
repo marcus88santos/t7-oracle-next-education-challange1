@@ -22,7 +22,7 @@ body {
 main {
   display: flex;
   background-color: var(--primary-color);
-  background-image: url(src/assets/images/img-main-background.svg);
+  background-image: url(../images/img-main-background.svg);
   background-size: cover;
   flex-direction: row;
   height: calc(100vh - 40px);
@@ -202,7 +202,7 @@ footer {
   .content__logo-title {
     margin-bottom: 48px;
   }
-  
+
   .content__logo-title__logo {
     padding: 0;
   }
@@ -219,7 +219,7 @@ footer {
   .content__text__alert {
     font-size: 0.7rem;
   }
-  
+
   .content__text__buttons {
     gap: 24px;
   }
@@ -263,7 +263,7 @@ footer {
   .content__logo-title {
     margin-bottom: 48px;
   }
-  
+
   .content__logo-title__logo {
     padding: 0;
   }
@@ -285,7 +285,7 @@ footer {
   .content__text__alert {
     font-size: 0.7rem;
   }
-  
+
   .content__text__buttons {
     flex-direction: column;
     gap: 24px;
