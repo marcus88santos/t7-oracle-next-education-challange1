@@ -10,12 +10,12 @@ Desafio 1 da turma 7 do programa ONE (Oracle Next Education)
 <br />
 
 ## 📁 Deploy do projeto
-Acesse o projeto clicando [aqui](https://marcus88santos.github.io/t7-oracle-next-education-challange1/)
+Acesse o projeto clicando [aqui](https://marcus88santos.github.io/t7-oracle-next-education-challenge1/)
 <br />
 <br />
 ## 🛠️ Abrir e rodar o projeto
 ```
-git clone https://github.com/marcus88santos/t7-oracle-next-education-challange1.git
+git clone https://github.com/marcus88santos/t7-oracle-next-education-challenge1.git
 ```
 
 ## ✔️ Técnicas e tecnologias utilizadas
